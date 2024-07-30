@@ -1,8 +1,8 @@
-public class Musica{
-    
+public class Musica {
+
     private String titulo;
     private int duracao;
-    
+
     public Musica(String titulo, int duracao) {
         this.titulo = titulo;
         this.duracao = duracao;
@@ -10,7 +10,7 @@ public class Musica{
 
     public String getTitulo() {
         return titulo;
-    } 
+    }
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
@@ -25,9 +25,8 @@ public class Musica{
     }
 
     public String toString() {
-        return "Musica{" +
-                "titulo = '" + titulo + '\'' +
-                ", duracao = " + duracao +
-                '}';
+        return "Musica: \n" +
+                "titulo = " + titulo + "\n" +
+                "duracao = " + duracao;
     }
 }

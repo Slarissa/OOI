@@ -25,9 +25,8 @@ public class Musico {
     }
 
     public String toString() {
-        return "Musico{" +
-                "nome = '" + nome + '\'' +
-                ", email = '" + email + '\'' +
-                '}';
+        return "Musico: \n" +
+                "nome = " + nome + "\n" +
+                "email = " + email;
     }
 }

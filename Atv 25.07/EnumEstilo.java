@@ -1,5 +1,5 @@
-public class EnumEstilo{
-    
+public class EnumEstilo {
+
     public enum EstiloEnum {
         rocknroll,
         axe,
@@ -7,5 +7,5 @@ public class EnumEstilo{
         sertanejo,
         blues,
         jazz
-     }
+    }
 }

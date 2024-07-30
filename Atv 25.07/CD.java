@@ -58,12 +58,11 @@ public class CD {
     }
 
     public String toString() {
-        return "CD{" +
-                "titulo = '" + titulo + '\'' +
-                ", ano = " + ano +
-                ", ehDuplo = " + ehDuplo +
-                ", banda=" + banda +
-                ", musicas=" + musicas +
-                '}';
+        return "CD: \n" +
+                "titulo = " + titulo + "\n" +
+                "ano = " + ano + "\n" +
+                "ehDuplo = " + ehDuplo + "\n" +
+                "banda=" + banda + "\n" +
+                "musicas=" + musicas;
     }
 }

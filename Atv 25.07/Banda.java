@@ -38,10 +38,9 @@ public class Banda {
     }
 
     public String toString() {
-        return "Banda{" +
-                "nome = '" + nome + '\'' +
-                ", estilo = " + estilo +
-                ", musicos=" + musicos +
-                '}';
+        return "Banda: \n" +
+                "nome = " + nome + "\n" +
+                "estilo = " + estilo + "\n" +
+                "musicos = " + musicos;
     }
 }
