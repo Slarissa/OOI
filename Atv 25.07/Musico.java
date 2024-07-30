@@ -1,5 +1,5 @@
-public class Musico{
-    
+public class Musico {
+
     private String nome;
     private String email;
 
